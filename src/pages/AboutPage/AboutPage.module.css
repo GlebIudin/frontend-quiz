@@ -1,0 +1,13 @@
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+.aboutTitle {
+    
+}
+
+.aboutText {
+}

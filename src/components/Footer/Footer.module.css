@@ -1,0 +1,27 @@
+.footerContainer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  background: rgba(98, 127, 255, 0.811);
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+  justify-content: flex-end;
+}
+
+.infoBlock {
+  margin-right: 25px;
+  align-self: flex-end;
+  display: flex;
+  gap: 20px;
+  align-items: flex-end;
+}
+
+.infoBlockTitle {
+  font-weight: 200;
+  margin: 0;
+  padding: 0;
+  align-self: flex-end;
+}

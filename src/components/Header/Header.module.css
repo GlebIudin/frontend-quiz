@@ -1,0 +1,59 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  background: rgba(98, 127, 255, 0.728);
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.logoAndTitle {
+  margin: 0;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  margin: 0;
+  padding: 0;
+  width: 60px;
+}
+
+.title {
+  margin: 0;
+}
+
+.list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 20px;
+  list-style: none;
+}
+
+.list li {
+  display: flex;
+}
+
+.button {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  border: none;
+  background: rgba(158, 153, 85, 0.858);
+  border-radius: 20px;
+}
+
+.link {
+  color: white;
+}
