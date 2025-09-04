@@ -1,1 +1,11 @@
-.button {}
+.quizSelectorContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  align-items: center;
+  margin-left: 50%;
+}
+
+.button {
+  color: yellow;
+}

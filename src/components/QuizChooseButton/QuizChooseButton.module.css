@@ -1,7 +1,9 @@
-button {
-    width: 240px;
-    height: 240px;
-    border-radius: 20%;
-    border-color: blue;
-    cursor: pointer;
+.button {
+  width: 240px;
+  height: 240px;
+  border-radius: 20%;
+  border-color: blue;
+  cursor: pointer;
+  background-color: rgba(243, 243, 89, 0.852);
+  color: black;
 }

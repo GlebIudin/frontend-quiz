@@ -1,7 +1,8 @@
-import type { ButtonHTMLAttributes, ReactNode } from "react"
+import type { ButtonHTMLAttributes, ReactNode } from "react";
 
-export interface QuizChooseButtonProps {
-    onClick?: () => void;
-    children: ReactNode;
-    text: string;
+export interface QuizChooseButtonProps
+  extends ButtonHTMLAttributes<HTMLButtonElement> {
+  onClick?: () => void;
+  children: ReactNode;
+  topic: string;
 }
